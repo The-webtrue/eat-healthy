@@ -9,7 +9,6 @@ body
 {
     display: flex;
     align-items: center;
-    margin-left: 5%;
 }
 
 .h1-text
@@ -37,8 +36,7 @@ p
 
 .half-width img
 {
-    width: 115%;
-    padding-right: 20px;
+    width: 100%;
 }
 a
 {
@@ -58,11 +56,50 @@ a
 }
 
 /* about us section */
-
-
-
-.about-container
+.about-bg
 {
-    
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-me
+{
+    width: 80%;
+    padding-right: 10%;
+}
+
+.about-me img{
+    width: 50%;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+/* my recipies section */
+
+.my-recipies
+{
+    text-align: center;
+}
+
+.recipies-items
+{
+    display: flex;
+}
+
+.shadow
+{
+    width: 50%;
+    margin-left:3% ;
+    margin-right: 3%;
+    padding-left: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+}
+
+.shadow img
+{
+    width: 97%;
+    margin-top: 20px;
 }
 
