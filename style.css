@@ -1,0 +1,68 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.h1-text
+{
+    font-size: 4rem;
+}
+
+span
+{
+    color: orangered;
+}
+p
+{
+    margin-bottom: 15%;
+    font-size: 23px;
+    color: gray;
+}
+
+.half-width
+{
+    width: 50%;
+    margin-left: 50px;
+    padding-right: 100px;   
+}
+
+.half-width img
+{
+    width: 115%;
+    padding-right: 20px;
+}
+a
+{
+    text-decoration: none;
+    
+}
+
+.btn
+{
+    background-image: linear-gradient(orange, tomato);
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* about us section */
+
+
+
+.about-container
+{
+    
+}
+
